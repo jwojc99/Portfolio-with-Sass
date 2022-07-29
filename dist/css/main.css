@@ -118,6 +118,46 @@ nav .menu-nav-link:hover {
   color: #ff652f;
 }
 
+.about {
+  padding-bottom: 2rem;
+}
+.about-bio-image {
+  height: 55vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.6)), url("../img/DSCF39821112.JPG") center center;
+  background-size: cover;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.about-bio {
+  width: 75%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.about-bio .text-secondary {
+  padding-bottom: 1rem;
+  font-size: 1.8rem;
+}
+.about-bio p {
+  font-size: 1.2rem;
+}
+.about .activities {
+  width: 60vw;
+  margin: 2rem auto 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+.about .activities-school {
+  background: linear-gradient(to left, #272727, rgba(255, 101, 47, 0.1));
+  padding: 0.5rem;
+  border-bottom: 5px solid #ff652f;
+  border-radius: 5px;
+}
+
 body {
   background: #272727;
   color: #fff;
@@ -135,6 +175,10 @@ h3 {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+.text-secondary {
+  color: #ff652f;
 }
 
 header {
