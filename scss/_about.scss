@@ -4,7 +4,7 @@
 	&-bio-image {
 		height: 55vh;
 		width: 100%;
-		background: linear-gradient(to right, rgba($primary-color, 0.3), rgba($primary-color, 0.6)),
+		background: linear-gradient(to right, rgba($primary-color, 0.3), rgba($primary-color, 0.4)),
 			url("../img/DSCF39821112.JPG") center center;
 		background-size: cover;
 		display: flex;
@@ -40,6 +40,9 @@
 			grid-gap: 2rem;
 
 			&-school {
+				display: flex;
+				flex-flow: column;
+				gap: 4px;
 				background: linear-gradient(
 					to left,
 					rgba($primary-color, 1),
@@ -48,13 +51,16 @@
 				padding: 0.5rem;
 				border-bottom: 5px solid $secondary-color;
 				border-radius: 5px;
+				.position {
+					font-size: 0.8rem;
+				}
 			}
 		}
 		.interests {
 			list-style: none;
 			display: flex;
 			flex-flow: column wrap;
-			justify-content: space-between;
+			justify-content: space-around;
 			padding: 0.8rem;
 			background: linear-gradient(
 				to right,

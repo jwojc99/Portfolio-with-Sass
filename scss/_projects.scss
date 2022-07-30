@@ -1,0 +1,51 @@
+.projects {
+	padding-bottom: 2rem;
+
+	&-bio-image {
+		height: 35vh;
+		width: 100%;
+		background: linear-gradient(to right, rgba($primary-color, 0.67), rgba($primary-color, 0.8)),
+			url("../img/luca-bravo-XJXWbfSo2f0-unsplash.jpg") center right;
+		background-size: cover;
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+
+		.text-secondary {
+			padding-bottom: 2rem;
+			font-size: 2rem;
+		}
+	}
+	&-items {
+		width: 70vw;
+		margin: 5rem auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 2.2rem;
+	}
+	&-item {
+		img {
+			width: 350px;
+			margin-bottom: 1rem;
+			border-radius: 8px;
+			box-shadow: 0 0 4px 5px rgba(19, 19, 19, 0.174);
+		}
+	}
+	&-btns {
+		display: flex;
+		flex-flow: column;
+		gap: 8px;
+		font-size: 1.2rem;
+
+		a {
+			@include transition-ease;
+			&:hover {
+				color: $secondary-color;
+			}
+		}
+		i {
+			margin-right: 8px;
+		}
+	}
+}

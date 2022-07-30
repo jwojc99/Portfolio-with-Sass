@@ -95,3 +95,8 @@ nav {
 		}
 	}
 }
+@for $i from 1 to 5 {
+	.menu-nav-item:nth-child(#{$i}) {
+		transition-delay: $i * 0.15s +0.15s;
+	}
+}

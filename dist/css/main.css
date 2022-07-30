@@ -10,7 +10,7 @@
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.8)), url("../img/mmDSCF0430.jpg") center center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.9)), url("../img/mmDSCF0430.jpg") center center;
   background-size: cover;
 }
 .home-name {
@@ -118,13 +118,29 @@ nav .menu-nav-link:hover {
   color: #ff652f;
 }
 
+.menu-nav-item:nth-child(1) {
+  transition-delay: 0.3s;
+}
+
+.menu-nav-item:nth-child(2) {
+  transition-delay: 0.45s;
+}
+
+.menu-nav-item:nth-child(3) {
+  transition-delay: 0.6s;
+}
+
+.menu-nav-item:nth-child(4) {
+  transition-delay: 0.75s;
+}
+
 .about {
   padding-bottom: 2rem;
 }
 .about-bio-image {
   height: 55vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.6)), url("../img/DSCF39821112.JPG") center center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.4)), url("../img/DSCF39821112.JPG") center center;
   background-size: cover;
   display: flex;
   flex-flow: column wrap;
@@ -157,21 +173,73 @@ nav .menu-nav-link:hover {
   grid-gap: 2rem;
 }
 .about-me-info .activities-school {
+  display: flex;
+  flex-flow: column;
+  gap: 4px;
   background: linear-gradient(to left, #272727, rgba(255, 101, 47, 0.16));
   padding: 0.5rem;
   border-bottom: 5px solid #ff652f;
   border-radius: 5px;
 }
+.about-me-info .activities-school .position {
+  font-size: 0.8rem;
+}
 .about-me-info .interests {
   list-style: none;
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0.8rem;
   background: linear-gradient(to right, #272727, rgba(255, 101, 47, 0.16));
   border-bottom: 5px solid #ff652f;
   border-radius: 5px;
   font-weight: 400;
+}
+
+.projects {
+  padding-bottom: 2rem;
+}
+.projects-bio-image {
+  height: 35vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.67), rgba(39, 39, 39, 0.8)), url("../img/luca-bravo-XJXWbfSo2f0-unsplash.jpg") center right;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.projects-bio-image .text-secondary {
+  padding-bottom: 2rem;
+  font-size: 2rem;
+}
+.projects-items {
+  width: 70vw;
+  margin: 5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.2rem;
+}
+.projects-item img {
+  width: 350px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 4px 5px rgba(19, 19, 19, 0.174);
+}
+.projects-btns {
+  display: flex;
+  flex-flow: column;
+  gap: 8px;
+  font-size: 1.2rem;
+}
+.projects-btns a {
+  transition: all 0.3s ease-in-out;
+}
+.projects-btns a:hover {
+  color: #ff652f;
+}
+.projects-btns i {
+  margin-right: 8px;
 }
 
 body {
