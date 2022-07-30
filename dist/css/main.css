@@ -134,28 +134,44 @@ nav .menu-nav-link:hover {
 }
 .about-bio {
   width: 75%;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   text-align: center;
 }
 .about-bio .text-secondary {
-  padding-bottom: 1rem;
-  font-size: 1.8rem;
+  padding-bottom: 1.8rem;
+  font-size: 2rem;
 }
 .about-bio p {
   font-size: 1.2rem;
 }
-.about .activities {
-  width: 60vw;
-  margin: 2rem auto 0;
+.about-me-info {
+  width: 75%;
+  margin: 2.4rem auto;
+  display: flex;
+  justify-content: space-around;
+}
+.about-me-info .activities {
+  width: 50%;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
 }
-.about .activities-school {
-  background: linear-gradient(to left, #272727, rgba(255, 101, 47, 0.1));
+.about-me-info .activities-school {
+  background: linear-gradient(to left, #272727, rgba(255, 101, 47, 0.16));
   padding: 0.5rem;
   border-bottom: 5px solid #ff652f;
   border-radius: 5px;
+}
+.about-me-info .interests {
+  list-style: none;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  padding: 0.8rem;
+  background: linear-gradient(to right, #272727, rgba(255, 101, 47, 0.16));
+  border-bottom: 5px solid #ff652f;
+  border-radius: 5px;
+  font-weight: 400;
 }
 
 body {
