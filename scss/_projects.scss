@@ -20,13 +20,14 @@
 		width: 70vw;
 		margin: 5rem auto;
 		display: flex;
+		flex-flow: row wrap;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-around;
 		gap: 2.2rem;
 	}
 	&-item {
 		img {
-			width: 350px;
+			width: 300px;
 			margin-bottom: 1rem;
 			border-radius: 8px;
 			box-shadow: 0 0 4px 5px rgba(19, 19, 19, 0.174);
@@ -48,4 +49,11 @@
 			margin-right: 8px;
 		}
 	}
+	.social-icons {
+		display: flex;
+		flex-direction: column;
+	}
+}
+.side-footer {
+	transform: rotate(90deg) translate(-3rem, -5rem);
 }

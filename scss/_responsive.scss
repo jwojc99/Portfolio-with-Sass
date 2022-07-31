@@ -1,0 +1,45 @@
+@include media-md {
+	.menu-btn {
+		visibility: hidden;
+	}
+
+	.nav {
+		visibility: visible;
+
+		.menu-nav {
+			display: block;
+			transform: translateY(0);
+			height: 100%;
+			background: transparent;
+			text-align: left;
+			padding-top: 1.5rem;
+
+			&-item {
+				display: inline;
+				padding-left: 1.5rem;
+				transform: translateX(-100vw);
+				transition: 0.5s;
+				&.open {
+					transform: translateX(0);
+				}
+			}
+
+			&-link {
+				font-size: 1.5rem;
+			}
+		}
+	}
+	.social-icons {
+		position: fixed;
+		bottom: 1rem;
+		left: 1rem;
+	}
+}
+@include media-lg {
+	.contact {
+		&-list {
+			margin: 1.5rem;
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+}

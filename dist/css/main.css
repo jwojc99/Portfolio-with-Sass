@@ -22,6 +22,9 @@
 .home-name--last {
   color: #ff652f;
 }
+.home h2 {
+  margin-top: 5px;
+}
 
 .menu-btn {
   position: absolute;
@@ -134,114 +137,6 @@ nav .menu-nav-link:hover {
   transition-delay: 0.75s;
 }
 
-.about {
-  padding-bottom: 2rem;
-}
-.about-bio-image {
-  height: 55vh;
-  width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.4)), url("../img/DSCF39821112.JPG") center center;
-  background-size: cover;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 20px;
-}
-.about-bio {
-  width: 75%;
-  margin-bottom: 40px;
-  text-align: center;
-}
-.about-bio .text-secondary {
-  padding-bottom: 1.8rem;
-  font-size: 2rem;
-}
-.about-bio p {
-  font-size: 1.2rem;
-}
-.about-me-info {
-  width: 75%;
-  margin: 2.4rem auto;
-  display: flex;
-  justify-content: space-around;
-}
-.about-me-info .activities {
-  width: 50%;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 2rem;
-}
-.about-me-info .activities-school {
-  display: flex;
-  flex-flow: column;
-  gap: 4px;
-  background: linear-gradient(to left, #272727, rgba(255, 101, 47, 0.16));
-  padding: 0.5rem;
-  border-bottom: 5px solid #ff652f;
-  border-radius: 5px;
-}
-.about-me-info .activities-school .position {
-  font-size: 0.8rem;
-}
-.about-me-info .interests {
-  list-style: none;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-around;
-  padding: 0.8rem;
-  background: linear-gradient(to right, #272727, rgba(255, 101, 47, 0.16));
-  border-bottom: 5px solid #ff652f;
-  border-radius: 5px;
-  font-weight: 400;
-}
-
-.projects {
-  padding-bottom: 2rem;
-}
-.projects-bio-image {
-  height: 35vh;
-  width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.67), rgba(39, 39, 39, 0.8)), url("../img/luca-bravo-XJXWbfSo2f0-unsplash.jpg") center right;
-  background-size: cover;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-.projects-bio-image .text-secondary {
-  padding-bottom: 2rem;
-  font-size: 2rem;
-}
-.projects-items {
-  width: 70vw;
-  margin: 5rem auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2.2rem;
-}
-.projects-item img {
-  width: 350px;
-  margin-bottom: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 0 4px 5px rgba(19, 19, 19, 0.174);
-}
-.projects-btns {
-  display: flex;
-  flex-flow: column;
-  gap: 8px;
-  font-size: 1.2rem;
-}
-.projects-btns a {
-  transition: all 0.3s ease-in-out;
-}
-.projects-btns a:hover {
-  color: #ff652f;
-}
-.projects-btns i {
-  margin-right: 8px;
-}
-
 .contact {
   height: 100%;
   padding-top: 35vh;
@@ -270,6 +165,172 @@ nav .menu-nav-link:hover {
   margin-top: 2rem;
 }
 
+.about {
+  padding-bottom: 2rem;
+}
+.about-bio-image {
+  height: 55vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.4)), url("../img/DSCF39821112.JPG") center center;
+  background-size: cover;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.about-bio {
+  width: 70%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.about-bio .text-secondary {
+  padding-bottom: 1.8rem;
+  font-size: 2rem;
+}
+.about-bio p {
+  font-size: 1.2rem;
+}
+.about-me-info {
+  width: 70%;
+  margin: 2.4rem auto;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+  justify-content: space-around;
+}
+.about-me-info .activities {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+.about-me-info .activities-school {
+  display: flex;
+  flex-flow: column;
+  gap: 4px;
+  background: linear-gradient(to left, #272727, rgba(255, 101, 47, 0.16));
+  padding: 0.5rem;
+  border-bottom: 5px solid #ff652f;
+  border-radius: 5px;
+}
+.about-me-info .activities-school .position {
+  font-size: 0.8rem;
+}
+.about-me-info .interests {
+  list-style: none;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  gap: 4px;
+  padding: 0.8rem;
+  background: linear-gradient(to right, #272727, rgba(255, 101, 47, 0.16));
+  border-bottom: 5px solid #ff652f;
+  border-radius: 5px;
+  font-weight: 400;
+}
+.about .social-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+side-footer {
+  transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
+.projects {
+  padding-bottom: 2rem;
+}
+.projects-bio-image {
+  height: 35vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.67), rgba(39, 39, 39, 0.8)), url("../img/luca-bravo-XJXWbfSo2f0-unsplash.jpg") center right;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.projects-bio-image .text-secondary {
+  padding-bottom: 2rem;
+  font-size: 2rem;
+}
+.projects-items {
+  width: 70vw;
+  margin: 5rem auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2.2rem;
+}
+.projects-item img {
+  width: 300px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 4px 5px rgba(19, 19, 19, 0.174);
+}
+.projects-btns {
+  display: flex;
+  flex-flow: column;
+  gap: 8px;
+  font-size: 1.2rem;
+}
+.projects-btns a {
+  transition: all 0.3s ease-in-out;
+}
+.projects-btns a:hover {
+  color: #ff652f;
+}
+.projects-btns i {
+  margin-right: 8px;
+}
+.projects .social-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-footer {
+  transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
+@media screen and (min-width: 768px) {
+  .menu-btn {
+    visibility: hidden;
+  }
+  .nav {
+    visibility: visible;
+  }
+  .nav .menu-nav {
+    display: block;
+    transform: translateY(0);
+    height: 100%;
+    background: transparent;
+    text-align: left;
+    padding-top: 1.5rem;
+  }
+  .nav .menu-nav-item {
+    display: inline;
+    padding-left: 1.5rem;
+    transform: translateX(-100vw);
+    transition: 0.5s;
+  }
+  .nav .menu-nav-item.open {
+    transform: translateX(0);
+  }
+  .nav .menu-nav-link {
+    font-size: 1.5rem;
+  }
+  .social-icons {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .contact-list {
+    margin: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 body {
   background: #272727;
   color: #fff;
