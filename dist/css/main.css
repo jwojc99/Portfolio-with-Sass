@@ -171,7 +171,7 @@ nav .menu-nav-link:hover {
 .about-bio-image {
   height: 55vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.4)), url("../img/DSCF39821112.JPG") center center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.4)), url("../img/DSCF39821113.JPG") center center;
   background-size: cover;
   display: flex;
   flex-flow: column wrap;
