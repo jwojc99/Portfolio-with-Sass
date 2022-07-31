@@ -242,6 +242,34 @@ nav .menu-nav-link:hover {
   margin-right: 8px;
 }
 
+.contact {
+  height: 100%;
+  padding-top: 35vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.9)), url("../img/mmDSCF0430.jpg") center center;
+  background-size: cover;
+}
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.contact-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  font-size: 1.5rem;
+}
+.contact-list i {
+  margin-right: 4px;
+}
+.contact .social-icons {
+  position: initial;
+  margin-top: 2rem;
+}
+
 body {
   background: #272727;
   color: #fff;
